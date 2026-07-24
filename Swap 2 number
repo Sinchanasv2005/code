@@ -1,0 +1,10 @@
+# swap 2 numbers
+
+x=1
+y=2
+temp=x
+x=y
+print(x)
+y=temp
+print(y)
+
