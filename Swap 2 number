@@ -8,3 +8,11 @@ print(x)
 y=temp
 print(y)
 
+# 2nd method of approch
+
+x=5
+y=3
+x,y=y,x
+print("the swaped value of x",x)
+print("the  swaped value of y",y)
+
