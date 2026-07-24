@@ -63,3 +63,10 @@ elif n<0:
     print("negative")
 else:
     print("zero")
+
+# check even or odd
+i=71
+if (i%2==0):
+    print("even")
+elif(i%2==1):
+    print("odd")
