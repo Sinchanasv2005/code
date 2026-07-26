@@ -1,0 +1,3 @@
+celsius=0
+faren=(celsius*9/5)+32
+print(faren)
