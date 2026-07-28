@@ -1,0 +1,26 @@
+name="Engineering College"   #string
+s=name.split()               #spliting the string to list there is a splace so split
+print(s) 
+
+for i in range(len(s)):      # length and lower the each index
+    s[i]=s[i].lower()
+print(s)
+
+s.sort()            #sorting
+print(s)
+
+result=" ".join(s)   # joining
+print(result)
+#--------------
+
+
+order="engineering"
+rel=list(order)     # its string no splace to split soo give list(-)
+print(rel)
+
+rel.sort()
+print(rel)
+
+# final=" ".join(rel)
+act=rel.replace(" ","")
+print(act)
