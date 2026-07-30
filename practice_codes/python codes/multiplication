@@ -1,10 +1,33 @@
-# tables
+# tables reverse oder
 for i in range(2,3):
-    for j in range(10,0,-1):
+    for j in range(10,0,-1): #10 means start from 10,0 is the stop before 0,-1 reverse order
         print(f"{i}*{j}={i*j}")
+# output
+2*10=20
+2*9=18
+2*8=16
+2*7=14
+2*6=12
+2*5=10
+2*4=8
+2*3=6
+2*2=4
+2*1=2
     
 
-# another method
-# num=int(input("enter: "))
-# for j in range(1,11):
-#     print(f"{i}*{num}={i*num}")
+# normal order
+num=int(input("enter: "))
+for j in range(1,11):  #go forward (1 to 10)
+    print(f"{i}*{num}={i*num}")
+
+# output
+2*1=2
+2*2=4
+2*3=6
+2*4=8
+2*5=10
+2*6=12
+2*7=14
+2*8=16
+2*9=18
+2*10=20

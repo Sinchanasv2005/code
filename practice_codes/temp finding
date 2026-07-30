@@ -1,0 +1,9 @@
+#celsius to faren
+celsius=25
+faren=(celsius*9/5)+32
+print(faren)
+
+# faren to cel
+faren=76
+cel=(faren-32)*5/9
+print(cel)

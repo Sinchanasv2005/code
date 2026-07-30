@@ -21,6 +21,6 @@ print(rel)
 rel.sort()
 print(rel)
 
-# final=" ".join(rel)
-act=rel.replace(" ","")
+final=" ".join(rel)   # join maduthe with space
+act=final.replace(" ","") # in between spac remove ge edhu kodu so yala join maduthe
 print(act)
