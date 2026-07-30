@@ -1,0 +1,37 @@
+# n=53
+# a=len(str(n))
+# sum=0
+# temp=n
+# while n>0:
+#     b=n%10
+#     sum=sum+b**a
+#     n=n//10
+# if(temp==sum):
+#     print("yes amstrong")
+# else:
+#     print("no its not a amstrong")
+
+
+
+#### to display the processing how it add inside the loop is
+
+
+n=int(input("enter the number:"))
+a=len(str(n))
+print(a)
+sum=0
+temp=n
+while n>0:
+    b=n%10
+    c=b**a
+    sum = sum+c
+    print(f"{b}^{a} ={c}")
+
+    n=n//10
+   
+    
+if(temp==sum):
+    print("yes")
+else:
+    print("no")
+          
