@@ -3,7 +3,7 @@ sum=0
 while n>0:
     digit =n%10
     old_sum=sum
-    sum=sum+digit
+    sum=old_sum+digit
     print(f"{old_sum}+{digit}={sum}")
     n=n//10
 print(sum)
