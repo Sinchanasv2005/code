@@ -1,9 +1,16 @@
 n=1234
 sum=0
-while n>0:
+while n>0:  # Rule of thumb: when you're peeling digits off a positive number using n = n // 10, always use n > 0, not n >= 0.
     digit =n%10
     old_sum=sum
     sum=sum+digit
-    print(f"{old_sum}+{digit}={sum}")
+    print(f"{old_sum}+{digit}={sum}")  # this is writen for to print the process happend inside
     n=n//10
 print(sum)
+
+###
+0+4=4   #old_sum =sum because of this 0 as to include
+4+3=7
+7+2=9
+9+1=10
+10

@@ -1,0 +1,29 @@
+# # using Anonymous function  lambda x:2**x  for x u can give any other variable name it will take
+# n=6
+# power_of_2=lambda x:2**x
+# i=0
+# while i<=n:
+#     print(power_of_2(i))
+#     i=i+1
+
+
+ # using def function
+
+# def power(x):
+#     return 2**x
+# n=6
+# i=0
+# while i<=n:
+#     print(power(i))
+#     i=i+1
+
+
+# using normal code
+
+n=6
+i=0
+while i<=n:
+    result=2**i
+    i=i+1
+    print(result)
+    
