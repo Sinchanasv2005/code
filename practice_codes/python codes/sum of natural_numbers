@@ -3,6 +3,7 @@ sum=0
 while n>0:  # Rule of thumb: when you're peeling digits off a positive number using n = n // 10, always use n > 0, not n >= 0.
     digit =n%10
     old_sum=sum
+<<<<<<< HEAD
     sum=sum+digit
     print(f"{old_sum}+{digit}={sum}")  # this is writen for to print the process happend inside
     n=n//10
@@ -14,3 +15,9 @@ print(sum)
 7+2=9
 9+1=10
 10
+=======
+    sum=old_sum+digit
+    print(f"{old_sum}+{digit}={sum}")
+    n=n//10
+print(sum)
+>>>>>>> 441460b94a1f0578fd7ef62eb3ff10d8bcbcbed9
