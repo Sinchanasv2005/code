@@ -1,0 +1,6 @@
+n=int(input("enter the number: "))
+div=int(input("enter the divisor: "))
+if n%div==0:
+     print(f"{n} is divisible by {div}")
+else:
+    print(f"{n} is not divisible by {div}")
