@@ -1,5 +1,0 @@
-for i in range(0,7): #it take 0 so start form 1
-    for j in range(0,i): # condition for increase * is 1--n,1--i
-        print("*",end=" ") #if j is not match last print will execute
-
-    print(" ")
