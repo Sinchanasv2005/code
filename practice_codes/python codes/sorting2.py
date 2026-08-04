@@ -9,4 +9,4 @@ for  w in words: # visit each word 1 at a time to do sort so loop
 print(result)
 
 # output
-# emrry adn ouy
+emrry adn ouy
