@@ -1,0 +1,16 @@
+num=[10,5,8,20,15]
+if num[0]>num[1]:
+    first=num[0]
+    second=num[1]
+else:
+    first=num[1]
+    second=num[0]
+for i in num[2:]:
+    if i>first:
+        second=first
+        first=i
+    elif i>second:
+        second=i
+print("1st largest number is:",first)
+print("2nd largest number is:",second)
+
