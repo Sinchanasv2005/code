@@ -1,0 +1,36 @@
+arr=[1,2,3,4]
+    # Helper function to compute GCD using Euclidean algorithm
+def gcd(a, b):
+    while b:
+        a, b = b, a % b
+    return a
+
+max_lcm = 0
+
+    # Let's trace i=0 with arr = [1, 2, 3, 4]
+for i in range(len(arr) - 1):
+    a = arr[i]        # i=0 → a = arr[0] = 1
+    b = arr[i + 1]    # i=0 → b = arr[1] = 2
+
+        # Now we call gcd(1, 2)
+        # Inside gcd: a=1, b=2
+        #   b is not 0, so: new a = 2, new b = 1 % 2 = 1
+        #   now a=2, b=1
+        #   b is not 0, so: new a = 1, new b = 2 % 1 = 0
+        #   now a=1, b=0
+        #   b is 0, loop stops → returns a = 1
+        # So gcd(1, 2) = 1
+
+    lcm = (a * b) // gcd(a, b)
+        # lcm = (1 * 2) // 1 = 2 // 1 = 2
+
+    if lcm > max_lcm:
+        max_lcm = lcm
+        # max_lcm was 0, now becomes 2
+
+        # Next loop, i=1: a=arr[1]=2, b=arr[2]=3 → lcm=6 → max_lcm=6
+        # Next loop, i=2: a=arr[2]=3, b=arr[3]=4 → lcm=12 → max_lcm=12
+
+print(max_lcm)  # after all pairs checked, returns 12
+
+

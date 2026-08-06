@@ -1,0 +1,21 @@
+# n=int(input("enter: "))
+# sum=0
+# while n>0:
+#     digit=n%10
+#     h=digit**2
+#     old_sum=sum
+#     sum=old_sum+h
+#     n=n//10
+    
+# print(sum)
+
+
+n=82
+total=0
+while n>0:
+    digit=n%10
+    sum=digit**2
+    total=total+sum
+    n=n//10
+print(total)
+
