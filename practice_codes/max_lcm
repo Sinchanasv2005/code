@@ -34,3 +34,12 @@ for i in range(len(arr) - 1):
 print(max_lcm)  # after all pairs checked, returns 12
 
 
+# for HCF max the code is
+#     in the place of lcm just put gcd
+# (4,8)
+# a=4 b=8
+# checking
+# a,b=b,a%b---4,8=8,,,,4%8===reminder is 0
+# now final return a=4 b=0
+# highest is 4 HCF
+
